@@ -1,0 +1,131 @@
+\documentclass{baciu_cv}
+
+\setname{Vlad-Eusebiu}{Baciu}
+\setaddress{Brussels/Belgium}
+\setmobile{+40747534479}
+\setmail{baciuvladeusebiu@gmail.com}
+
+\setlinkedinaccount{https://www.linkedin.com/in/baciu-vlad-eusebiu-054103133/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/vladBaciu} %you can play with color of the template (red is also nice..)
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Summary}{%
+\lipsum[1][1-12]\ %replace this part with actual text
+}
+%
+%Education
+\section{Education} 
+    \datedexperience{Vrije Universiteit Brussels}{2020-Present} 
+    \explanation{M.S Erasmus student} 
+    \explanationdetail{
+    \coloredbullet\ % 
+     Currently I am studying abroad in Brussels as an exchange student for a period of 1 year. \\
+    \coloredbullet\ %
+     I am working on my thesis which involves anomaly detection in sensor arrays using deep learning techniques. \\
+    \coloredbullet\ %
+     Main subjects: analog electronics, signal theory, wireless comunications, operating systems, multiprocessors and reconfigurable architectures.
+    }
+    \datedexperience{Polytechnic University of Bucharest}{2019-Present} 
+    \explanation{M.S in Automotive Electronics} 
+    \explanationdetail{\ % 
+    \coloredbullet\ % 
+      Main subjects: embedded systems, electronics, electronics manufacturing processes, PCB design
+    }
+    \datedexperience{Transilvania University of Brasov}{2015-2019} 
+    \explanation{B.S in Electronics and Telecommunications} 
+    \explanationdetail{\ % 
+    \coloredbullet\ % 
+    Final project:  Sensorless BLDC (Brushless DC Motor) controller using BEMF (Back-EMF) sensing method and zero crossing point detection. Diploma exam: 10
+    }
+%
+% Experience
+\section{Experience}
+    %
+    \datedexperience{NXP Semiconductors}{Jan 2021-Present / Remote} 
+    \explanation{Software Development Engineer in automotive security department} 
+    %
+    \datedexperience{Continental Automotive}{Aug 2019- Nov 2020 / Bucharest} 
+    \explanation{Embedded Software Engineer in end of line department} 
+    %
+    \datedexperience{NTT Data}{Nov 2018 - Jun 2019 / Brasov} 
+    \explanation{Internship - Embedded Software Developer} 
+    \explanationdetail{\coloredbullet\ %
+    Embedded software development following automotive standards (AUTOSAR). 
+    }
+    \datedexperience{Università degli Studi di Cagliari}{2019-Summer/Italy} 
+    \explanation{Erasmus Traineeship} 
+    \explanationdetail{\coloredbullet\ %
+    I have worked on two projects in bioengineering department (signal aquisition and process automation) where I applied my knowledge in electronics and software development.
+     }
+    %
+    \datedexperience{Preh}{Jan 2018 - Jun 2018 / Brasov} 
+    \explanation{Internship - Embedded Software Developer} 
+    \explanationdetail{\coloredbullet\ %
+    Embedded software development of device drivers such as Control Area Network (CAN), ADC, PWM.
+    }
+    \datedexperience{Benchmark Electronics}{Jan 2018 - Jun 2018 / Brasov} 
+    \explanation{Internship - Test Engineering Departmnets} 
+    \explanationdetail{\coloredbullet\ %
+    The job took place in an electronics factory. My main responsabilities were to test, debug and analyse PCB assemblies. \\
+    \coloredbullet\ %
+    I developed Labview test programs and during this time I got the CLAD (Certificated Labview Associate Developer) certification issued by National Instruments.
+    }
+%
+% Skills
+\section{Skills}
+    %
+    \newcommand{\skillone}{\createskill{Programming Languages}{ C \cpshalf C++ \cpshalf Labview \cpshalf \ \  Java \cpshalf Bash \cpshalf Python \cpshalf Perl}}
+    %
+    \newcommand{\skilltwo}{\createskill{Software Development}{Programming Paradigms \cpshalf GIT \cpshalf CLI \cpshalf Cmake}}
+    %
+    \newcommand{\skillthree}{\createskill{Engineering }{Electronics \cpshalf Embedded Systems \cpshalf Power Electronics \cpshalf Telecommunications \cpshalf Signal processing }}
+    %
+    \newcommand{\skillfour}{\createskill{Others}{FPGA \cpshalf Verilog \cpshalf VHDL \cpshalf PCB Design} \cpshalf Linux \cpshalf Assembly language}
+    %
+    \newcommand{\skillfive}{\createskill{Languages}{\textbf{\emph{Native:}} \ \  Romanian \ \ \textbf{\emph{Fluent:}} \ \ English \ \ \textbf{\emph{Intermediate:}} \ \  Italian, French }}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+%
+% Awards
+\section{Awards}
+    \newcommand{\awardsone}{%
+    1st Prize - Student Scientific Session, 2019, Transivlania Unversity of Brasov. {\textbf{Project:}} Sensorless     BLDC controller using BEMF measurement and zero crossing point detection. \\
+    }
+    %
+    \newcommand{\awardstwo}{%
+     2nd Prize - Student Scientific Session, 2018, Transivlania Unversity of Brasov. {\textbf{Project:}} Solar tracker.\\
+    }
+    %
+    \newcommand{\awardsthree}{%
+    4th Prize - Student Scientific Session, 2017, Transivlania Unversity of Brasov. {\textbf{Project:}} LabView warehouse management sofware.
+    }
+    %
+    \newcommand{\listofawards}{\awardsone, \awardstwo, \awardsthree}
+    %
+    \createbullets{\listofawards}
+    
+% Extra
+\section{Extra}
+    \newcommand{\extraone}{%
+     Starting from 2021 I am part of CubeSat team from Polytechnic University of Bucharest.  \\
+    }
+    %
+    \newcommand{\extratwo}{%
+     During my spare time I have attended many courses on Coursera, the most relevant ones are: satellite communications and satellite navigation for which I have a Coursera certification.\\
+    }
+    \newcommand{\listofextras}{\extraone, \extratwo}
+    %
+    \createbullets{\listofextras}
+%
+%Footnote
+\createfootnote
+\end{document}
