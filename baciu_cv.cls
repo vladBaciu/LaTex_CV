@@ -1,6 +1,4 @@
-% Created by Murat Can Karacabey
-% this is inspired by Murat Can Karacabey CV. Code written by Murat Can Karacabey
-% Might be interpreted as an easier-to-edit or easier-to-understand-what-is-going-on version of it.
+% Thanks to Murat Can Karacabey who created this template and who inspired me. Template found in Overleaf.
 \author{}
 \RequirePackage[dvipsnames]{xcolor} % moved here I guess article class causes option clash with xcolor if used after loading the class
 \LoadClass[11pt]{article}
@@ -194,4 +192,4 @@ Position: & \@claimedposition \\
 \newcommand\createfootnote{%
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
     \renewcommand\footnoterule{\rule{0.3\linewidth}{0.5pt}}
-    \let\thefootnote\relax\footnote{\today\ / \href{}{source code}}}
+    \let\thefootnote\relax\footnote{\today\ / \href{}{CV source code: https://github.com/vladBaciu/LaTex_CV}}}
